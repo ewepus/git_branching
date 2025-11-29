@@ -7,6 +7,10 @@ public class Sheep {
         this.name = name;
     }
 
+    public void makeSound() {
+        System.out.println("Bleh :P");
+    }
+
     public String getName() {
         return name;
     }
