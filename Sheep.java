@@ -7,6 +7,10 @@ public class Sheep {
         this.age = age;
     }
 
+    public void makeSound() {
+        System.out.println("Meow...");
+    }
+
     public String getName() {
         return name;
     }
